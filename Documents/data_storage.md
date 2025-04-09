@@ -5,6 +5,7 @@ The internal and external datasets are stored in the `Dataset` folder according 
 - The labeled data from the internal dataset is referred to as **Subset 1**.
 - The labeled data from the external dataset is referred to as **Subset 2**.
 - The unlabeled data is referred to as **Subset 3**.
+- The pseudolabeled data is referred to as **Pseudo-labels**.
 
 Please refer to [data information](https://github.com/BYO-UPM/Craneal_CT/blob/main/Documents/dataset_information.pdf) for more details.
 
@@ -55,5 +56,19 @@ Dataset/
 │   ├── P11
 │   ├── P12
 │   ├── P14
+│   ├── ...
+├── Pseudolabeled Data PNG
+│   ├── P10
+│   │   ├── Pseudo Mask
+│   │   ├── P10_pmask_087.png
+│   │   ├── P10_pmask_091.png
+│   │   ├── ...
+│   │   ├── Original CT
+│   │   ├── P10_original_087.png
+│   │   ├── P10_original_091.png
+│   │   ├── ...
+│   ├── P11
+│   ├── P12
+│   ├── P13
 │   ├── ...
 ```
